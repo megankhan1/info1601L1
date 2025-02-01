@@ -49,6 +49,34 @@
                 <cite>citation</cite><br>
                 <dfn>definition</dfn><br>
             </section>
+
+            <selection>
+                <figure>
+                    <img src="cage.gif" alt="cage gif">
+                    <figcaption>Fig 1. Cage gif</figcaption>
+                </figure>
+            </selection>
+
+            <section>
+                <details>
+                    <summary>Hobbies</summary>
+                    <ul>
+                        <li>Swimming</li>
+                        <li>Coding</li>
+                        <li>Music</li>
+                        <li>Music</li>
+                    </ul>
+                </details>
+            </section>
+
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
         </article>
         <p>Welcome</p>
     
@@ -73,5 +101,48 @@
         <s>strikethrough</s><br>
         Text<sub>subscript</sub><br>
         Text<sup>superscript</sup><br>
+
+        <h1>HTML</h1>
+        <p>HTML is a language for describing web pages.</p>
+
+        <br>
+
+        <h1>CSS</h1>
+        <p>CSS defines how to display HTML elements.</p>
+
+        <h1>About WWF</h1>
+        <p>Here is a quote from WWF's website</p>
+
+        <blockquote>
+            WWF’s conservation work is grounded in science. 
+            Our scientists develop innovative approaches and apply 
+            the best available information to advance cutting-edge tools 
+            and methods, connect natural and social systems, and find solutions 
+            to the planet’s most pressing and complex threats.
+        </blockquote>
+
+        <p>A n ordered list:</p>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+        <p>An unordered list:</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <p>A description list:</p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+        </dl>
+
+
     </body>
 </html>
